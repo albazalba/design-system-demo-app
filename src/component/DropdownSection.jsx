@@ -13,7 +13,7 @@ const DropdownSection = ({theme}) => {
                     buttonIcon="▾"
                     buttonName="Open"
                     buttonStyle={{
-                        background: CONSTANTS.primaryColor,
+                        background: theme.primaryColor,
                         border: 'none',
                         color: 'white',
                         padding: '9px 15px'

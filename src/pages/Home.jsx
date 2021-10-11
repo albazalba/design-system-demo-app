@@ -75,37 +75,37 @@ const Home = () => {
                     <List alignment="horizontal" lists={[
                         {
                             link:"/buttons",
-                            activeStyle:{background:theme.primaryColor, color:"white"},
+                            activeStyle:{background:"gray", color:"white"},
                             hoverEffect: true,
                             primaryText: 'Buttons',
                         },
                         {
                             link:"/list",
-                            activeStyle:{background:theme.primaryColor, color:"white"},
+                            activeStyle:{background:"gray", color:"white"},
                             hoverEffect: true,
                             primaryText: 'List',
                         },
                         {
                             link:"/card",
-                            activeStyle:{background:theme.primaryColor, color:"white"},
+                            activeStyle:{background:"gray", color:"white"},
                             hoverEffect: true,
                             primaryText: 'Card',
                         },
                         {
                             link:"/tab",
-                            activeStyle:{background:theme.primaryColor, color:"white"},
+                            activeStyle:{background:"gray", color:"white"},
                             hoverEffect: true,
                             primaryText: 'Tab',
                         },
                         {
                             link:"/dropdown",
-                            activeStyle:{background:theme.primaryColor, color:"white"},
+                            activeStyle:{background:"gray", color:"white"},
                             hoverEffect: true,
                             primaryText: "Dropdown"
                         },
                         {
                             link:"/select",
-                            activeStyle:{background:theme.primaryColor, color:"white"},
+                            activeStyle:{background:"gray", color:"white"},
                             hoverEffect: true,
                             primaryText: "Select"
                         }
