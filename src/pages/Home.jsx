@@ -19,7 +19,8 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
+    Link,
+    Redirect
   } from "react-router-dom";
 import DropdownSection from '../component/DropdownSection'
 import SelectSection from '../component/SelectSection'
@@ -115,6 +116,9 @@ const Home = () => {
                         </div>
                     <div className="button-container" style={nightMode? {backgroundColor:"#282828", color:"#F5F5F5"} : {backgroundColor:"white", color:"black"}}>
                     <Switch>
+                            <Route exact path="/">
+                                <Redirect to="/buttons" />
+                            </Route>
                             <Route path="/buttons">
                                 <ButtonSection theme={theme}/>
                             </Route>
